@@ -1,0 +1,8 @@
+y = 0
+a_list = ['1', '2']; x = '3'
+for n in a_list:
+    if n == x:
+      break  
+else:
+    y += 1
+print(y)
