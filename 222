@@ -1,0 +1,8 @@
+a_list
+changed = True; N = len(a_list)
+while changed:
+    changed = False
+for i in range(N - 1):
+    if a_list[i]> a_list[i + 1]:
+        a_list[i], a_list[i + 1] = a_list[i + 1], a_list[i]
+        changed = True
